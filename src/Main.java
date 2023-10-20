@@ -1,3 +1,4 @@
+import designpattern.abstractfactory.AbstractFactoryTest;
 import designpattern.adapter.delegation.AdapterDelegationTest;
 import designpattern.adapter.example.AdapterExampleTest;
 import designpattern.adapter.inheritance.AdapterInheritanceTest;
@@ -20,6 +21,7 @@ public class Main {
         singletonPattern();
         prototypePattern();
         builderPattern();
+        abstractFactoryPattern();
     }
 
     public static void printTitle(String title) {
@@ -68,5 +70,10 @@ public class Main {
     public static void builderPattern() {
         printTitle("Builder Pattern");
         BuilderTest.run();
+    }
+
+    public static void abstractFactoryPattern() {
+        printTitle("Abstract Factory Pattern");
+        AbstractFactoryTest.run();
     }
 }
