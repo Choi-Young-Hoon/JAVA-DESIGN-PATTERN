@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="Singleton">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/prototype/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/prototype/PrototypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/prototype/product/MessageBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/prototype/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/prototype/product/UnderlinePen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factorymethod/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/factorymethod/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factorymethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/factorymethod/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factorymethod/IDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/factorymethod/product/IDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factorymethod/IDCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/factorymethod/factory/IDCardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factorymethod/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/factorymethod/product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697794936522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Singleton">
+      <option name="closed" value="true" />
+      <created>1697794967900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697794967900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

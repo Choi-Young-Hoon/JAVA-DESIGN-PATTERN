@@ -4,6 +4,7 @@ import designpattern.adapter.inheritance.AdapterInheritanceTest;
 import designpattern.factorymethod.FactoryMethodTest;
 import designpattern.iterator.BookShelfIteratorPatternTest;
 import designpattern.iterator.usingArrayList.BookShelfIteratorPatternArrayList;
+import designpattern.prototype.PrototypeTest;
 import designpattern.singleton.SingletonTest;
 import designpattern.templatemethod.TemplateMethodTest;
 
@@ -16,8 +17,7 @@ public class Main {
         templateMethodPattern();
         factoryMethodPattern();
         singletonPattern();
-
-
+        prototypePattern();
     }
 
     public static void printTitle(String title) {
@@ -56,5 +56,10 @@ public class Main {
     public static void singletonPattern() {
         printTitle("Singleton Pattern");
         SingletonTest.run();
+    }
+
+    public static void prototypePattern() {
+        printTitle("Prototype Pattern");
+        PrototypeTest.run();
     }
 }

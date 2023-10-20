@@ -1,5 +1,9 @@
 package designpattern.factorymethod;
 
+import designpattern.factorymethod.factory.Factory;
+import designpattern.factorymethod.factory.IDCardFactory;
+import designpattern.factorymethod.product.Product;
+
 public class FactoryMethodTest {
     public static void run() {
         Factory factory = new IDCardFactory();
