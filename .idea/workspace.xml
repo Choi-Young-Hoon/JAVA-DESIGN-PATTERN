@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="Prototype">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/prototype/ReadMe.md" afterDir="false" />
+    <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="Prototype ReadMe.md">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/builder/BuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/builder/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/builder/builder/HTMLBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/builder/builder/TextBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/designpattern/prototype/product/MessageBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/prototype/product/MessageBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/designpattern/prototype/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/prototype/product/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/designpattern/prototype/product/UnderlinePen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/prototype/product/UnderlinePen.java" afterDir="false" />
@@ -113,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697796984207</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Prototype ReadMe.md">
+      <option name="closed" value="true" />
+      <created>1697797532296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697797532296</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,18 +136,8 @@
     <MESSAGE value="FactoryMethod" />
     <MESSAGE value="Singleton" />
     <MESSAGE value="Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/designpattern/adapter/example/AdapterExampleTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Prototype ReadMe.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype ReadMe.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JAVA_DESIGN_PATTERN$Main.ic" NAME="Main 커버리지 결과" MODIFIED="1697788190478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

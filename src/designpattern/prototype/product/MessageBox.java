@@ -2,7 +2,7 @@ package designpattern.prototype.product;
 
 import designpattern.prototype.Manager;
 
-public class MessageBox implements Product {
+public class MessageBox extends Product {
     private char decochar;
 
     public MessageBox(char decochar) {

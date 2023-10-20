@@ -1,6 +1,6 @@
 package designpattern.prototype.product;
 
-public class UnderlinePen implements Product {
+public class UnderlinePen extends Product {
     private char ulchar;
 
     public UnderlinePen(char ulchar) {

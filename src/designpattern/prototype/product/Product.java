@@ -1,12 +1,12 @@
 package designpattern.prototype.product;
 
-public interface Product extends Cloneable {
+public abstract class Product implements Cloneable {
     public abstract void use(String s);
 
-    public default Product createCopy() {
+    public Product createCopy() {
         Product product = null;
         try {
-            product = (Product)this.clone();
+            product = (Product)clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
