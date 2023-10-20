@@ -4,15 +4,17 @@ import designpattern.abstractfactory.factory.Factory;
 import designpattern.abstractfactory.factory.Link;
 import designpattern.abstractfactory.factory.Page;
 import designpattern.abstractfactory.factory.Tray;
+import designpattern.abstractfactory.listfactory.DivFactory;
 import designpattern.abstractfactory.listfactory.ListFactory;
 
 public class AbstractFactoryTest {
     public static void run() {
-        String filename = "list.html";
-        String classname = "ListFactory";
+        factoryRun(new ListFactory(), "list.html");
+        factoryRun(new DivFactory(), "div.html");
+    }
 
-       // Factory factory = Factory.getFactory(classname);
-        Factory factory = new ListFactory();
+
+    public static void factoryRun(Factory factory, String outputFileName) {
         Link blog1 = factory.createLink("Blog 1", "https://example.com/blog1");
         Link blog2 = factory.createLink("Blog 2", "https://example.com/blog2");
         Link blog3 = factory.createLink("Blog 3", "https://example.com/blog3");
@@ -38,6 +40,6 @@ public class AbstractFactoryTest {
         Page page = factory.createPage("Blog and News", "Youngjin.com");
         page.add(blogTray);
         page.add(newsTray);
-        page.output(filename);
+        page.output(outputFileName);
     }
 }
