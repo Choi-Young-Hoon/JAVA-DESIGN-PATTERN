@@ -4,6 +4,7 @@ import designpattern.adapter.inheritance.AdapterInheritanceTest;
 import designpattern.factorymethod.FactoryMethodTest;
 import designpattern.iterator.BookShelfIteratorPatternTest;
 import designpattern.iterator.usingArrayList.BookShelfIteratorPatternArrayList;
+import designpattern.singleton.SingletonTest;
 import designpattern.templatemethod.TemplateMethodTest;
 
 // Shift을(를) 두 번 눌러 전체 검색 대화상자를 열고 'show whitespaces'를 입력한 다음,
@@ -14,31 +15,46 @@ public class Main {
         adapterPattern();
         templateMethodPattern();
         factoryMethodPattern();
+        singletonPattern();
+
+
+    }
+
+    public static void printTitle(String title) {
+        System.out.println("============================= " + title + " =============================");
     }
 
     public static void iteratorPattern() {
-        System.out.println("============================= Iterator Pattern ===========================");
+        printTitle("Iterator Pattern");
         BookShelfIteratorPatternTest.run();
-        System.out.println("============================= Iterator Pattern Using ArrayList ===========================");
+
+        printTitle("Iterator Pattern Using ArrayList");
         BookShelfIteratorPatternArrayList.run();
     }
 
     public static void adapterPattern() {
-        System.out.println("============================= Adapter Pattern Inheitance ===========================");
+        printTitle("Adapter Pattern Inheritance");
         AdapterInheritanceTest.run();
-        System.out.println("============================= Adapter Pattern Delegation ===========================");
+
+        printTitle("Adapter Pattern Delegation");
         AdapterDelegationTest.run();
-        System.out.println("============================= Adapter Pattern FileIO Example ===========================");
+
+        printTitle("Adapter Pattern FileIO Example");
         AdapterExampleTest.run();
     }
 
     public static void templateMethodPattern() {
-        System.out.println("============================= Template Method Pattern ===========================");
+        printTitle("Template Method Pattern");
         TemplateMethodTest.run();
     }
 
     public static void factoryMethodPattern() {
-        System.out.println("============================= Factory Method Pattern ===========================");
+        printTitle("Factory Method Pattern");
         FactoryMethodTest.run();
+    }
+
+    public static void singletonPattern() {
+        printTitle("Singleton Pattern");
+        SingletonTest.run();
     }
 }
