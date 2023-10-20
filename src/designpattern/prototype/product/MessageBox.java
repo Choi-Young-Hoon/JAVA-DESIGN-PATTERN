@@ -24,15 +24,4 @@ public class MessageBox implements Product {
         }
         System.out.println();
     }
-
-    @Override
-    public Product createCopy() {
-        Product p = null;
-        try {
-            p = (Product)super.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return p;
-    }
 }
