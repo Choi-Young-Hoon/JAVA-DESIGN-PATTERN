@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA-DESIGN-PATTERN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/Banner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/BookShelfIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/BookShelfIteratorPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/usingArrayList/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/usingArrayList/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/usingArrayList/BookShelfIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/iterator/usingArrayList/BookShelfIteratorPatternArrayList.java" afterDir="false" />
+    <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="Iterator">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/delegation/AdapterDelegationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/delegation/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/delegation/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/delegation/PrintBanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/example/AdapterExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/example/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/example/FileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/inheritance/AdapterInheritanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/inheritance/Banner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/inheritance/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/adapter/inheritance/PrintBanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +71,38 @@
       <option name="presentableId" value="Default" />
       <updated>1697688458623</updated>
     </task>
+    <task id="LOCAL-00001" summary="Iterator">
+      <option name="closed" value="true" />
+      <created>1697785514361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697785514361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>17</line>
+          <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/designpattern/adapter/example/AdapterExampleTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JAVA_DESIGN_PATTERN$Main.ic" NAME="Main 커버리지 결과" MODIFIED="1697788190478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,3 +1,6 @@
+import designpattern.adapter.delegation.AdapterDelegationTest;
+import designpattern.adapter.example.AdapterExampleTest;
+import designpattern.adapter.inheritance.AdapterInheritanceTest;
 import designpattern.iterator.BookShelfIteratorPatternTest;
 import designpattern.iterator.usingArrayList.BookShelfIteratorPatternArrayList;
 
@@ -22,5 +25,13 @@ public class Main {
         BookShelfIteratorPatternTest.run();
         System.out.println("============================= Iterator Pattern Using ArrayList ===========================");
         BookShelfIteratorPatternArrayList.run();
+
+
+        System.out.println("============================= Adapter Pattern Inheitance ===========================");
+        AdapterInheritanceTest.run();
+        System.out.println("============================= Adapter Pattern Delegation ===========================");
+        AdapterDelegationTest.run();
+        System.out.println("============================= Adapter Pattern FileIO Example ===========================");
+        AdapterExampleTest.run();
     }
 }
