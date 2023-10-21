@@ -2,6 +2,7 @@ import designpattern.abstractfactory.AbstractFactoryTest;
 import designpattern.adapter.delegation.AdapterDelegationTest;
 import designpattern.adapter.example.AdapterExampleTest;
 import designpattern.adapter.inheritance.AdapterInheritanceTest;
+import designpattern.bridge.BridgeTest;
 import designpattern.builder.BuilderTest;
 import designpattern.factorymethod.FactoryMethodTest;
 import designpattern.iterator.BookShelfIteratorPatternTest;
@@ -22,6 +23,7 @@ public class Main {
         prototypePattern();
         builderPattern();
         abstractFactoryPattern();
+        bridgePattern();
     }
 
     public static void printTitle(String title) {
@@ -75,5 +77,10 @@ public class Main {
     public static void abstractFactoryPattern() {
         printTitle("Abstract Factory Pattern");
         AbstractFactoryTest.run();
+    }
+
+    public static void bridgePattern() {
+        printTitle("Bridge Pattern");
+        BridgeTest.run();
     }
 }

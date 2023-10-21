@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="Abstract Factory">
-      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/listfactory/DivFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/listfactory/DivLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/listfactory/DivPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/listfactory/DivTray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bridge.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/BridgeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/display/CountDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/display/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/display/RandomCountDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/impl/DisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/impl/FileDisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/impl/StringDisplayImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpattern/abstractfactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpattern/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Study/JAVA-DESIGN-PATTERN/JAVA-DESIGN-PATTERN",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Study/JAVA-DESIGN-PATTERN/JAVA-DESIGN-PATTERN&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="designpattern.iterator" />
@@ -148,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697807775726</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Abstract Factory">
+      <option name="closed" value="true" />
+      <created>1697809393226</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697809393226</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
