@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="Abstract Factory">
-      <change afterPath="$PROJECT_DIR$/bridge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/BridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/display/CountDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/display/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/display/RandomCountDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/impl/DisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/impl/FileDisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designpattern/bridge/impl/StringDisplayImpl.java" afterDir="false" />
+    <list default="true" id="3ccb902b-848f-4eb8-a063-2d795d38940e" name="변경" comment="Bridge">
+      <change afterPath="$PROJECT_DIR$/src/designpattern/strategy/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/strategy/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/strategy/ProbStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/strategy/StrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpattern/strategy/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -159,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697809393226</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bridge">
+      <option name="closed" value="true" />
+      <created>1697849878254</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697849878254</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +188,8 @@
     <MESSAGE value="Prototype ReadMe.md" />
     <MESSAGE value="Builder" />
     <MESSAGE value="Abstract Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory" />
+    <MESSAGE value="Bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bridge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JAVA_DESIGN_PATTERN$Main.ic" NAME="Main 커버리지 결과" MODIFIED="1697788190478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

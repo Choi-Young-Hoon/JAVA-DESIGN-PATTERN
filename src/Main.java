@@ -9,6 +9,7 @@ import designpattern.iterator.BookShelfIteratorPatternTest;
 import designpattern.iterator.usingArrayList.BookShelfIteratorPatternArrayList;
 import designpattern.prototype.PrototypeTest;
 import designpattern.singleton.SingletonTest;
+import designpattern.strategy.StrategyTest;
 import designpattern.templatemethod.TemplateMethodTest;
 
 // Shift을(를) 두 번 눌러 전체 검색 대화상자를 열고 'show whitespaces'를 입력한 다음,
@@ -24,6 +25,7 @@ public class Main {
         builderPattern();
         abstractFactoryPattern();
         bridgePattern();
+        strategyPattern();
     }
 
     public static void printTitle(String title) {
@@ -82,5 +84,10 @@ public class Main {
     public static void bridgePattern() {
         printTitle("Bridge Pattern");
         BridgeTest.run();
+    }
+
+    public static void strategyPattern() {
+        printTitle("Strategy Pattern");
+        StrategyTest.run();
     }
 }
